@@ -64,3 +64,36 @@ img {
     height: auto;
     width: 450px;
 }
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+.info img{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: solid #3882F6;
+    border-radius: 25px;
+}
+.text {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 150px;
+    margin-top: 15px;
+}
