@@ -80,6 +80,7 @@ img {
     justify-content: center;
     align-content: center;
     gap: 50px;
+    padding-bottom: 60px;
 }
 .info img{
     display: flex;
@@ -96,4 +97,30 @@ img {
     color: #E5E7EB;
     max-width: 150px;
     margin-top: 15px;
+}
+.gray-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+    gap: 20px;
+}
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937; 
+    max-width: 750px;
+}
+.thor {
+    display: flex;
+    font-weight: 800;
+    align-self:flex-end;
 }
