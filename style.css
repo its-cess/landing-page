@@ -20,6 +20,16 @@
     display: flex;
     gap: 20px;
 }
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+a:hover {
+    color: #3882F6;
+}
 .main {
     display: flex;
     flex: 1;
@@ -182,4 +192,14 @@ img {
     height: 15px;
     justify-content: center;
     align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 13px;
+    height: 60px;
 }
